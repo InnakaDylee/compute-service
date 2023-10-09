@@ -35,7 +35,7 @@ func InitDB() {
 	  DB_Username: "innakad",
 	  DB_Password: "innaka321",
 	  DB_Port:     "3306",
-	  DB_Host:     "db-compute-service.cqi2b1h2tamz.ap-southeast-1.rds.amazonaws.com",
+	  DB_Host:     "db-mvc.cqi2b1h2tamz.ap-southeast-1.rds.amazonaws.com",
 	  DB_Name:     "crud_go",
 	}
   
