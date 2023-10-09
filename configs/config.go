@@ -32,10 +32,10 @@ func InitDB() {
   
   
 	config := Config{
-	  DB_Username: "root",
-	  DB_Password: "",
+	  DB_Username: "innakad",
+	  DB_Password: "innaka321",
 	  DB_Port:     "3306",
-	  DB_Host:     "127.0.0.1",
+	  DB_Host:     "db-compute-service.cqi2b1h2tamz.ap-southeast-1.rds.amazonaws.com",
 	  DB_Name:     "crud_go",
 	}
   
