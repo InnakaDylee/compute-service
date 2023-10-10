@@ -2,7 +2,8 @@ FROM golang:alpine3.18 AS dev
 RUN mkdir /app
 ADD . /app
 WORKDIR /app
-RUN go build main.go
+RUN go mod tidy
+RUN go build -o main .
 
 FROM alpine:3.18 
 WORKDIR /root/
