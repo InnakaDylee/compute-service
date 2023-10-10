@@ -1,7 +1,7 @@
 FROM golang:alpine3.18 AS dev
 RUN mkdir /app
-ADD . /app
 WORKDIR /app
+ADD . /app
 RUN go mod tidy
 RUN go build -o main .
 
